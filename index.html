@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container" id="register-container">
+      <form action="">
+        <h1>Register</h1>
+        <div class="form-input">
+          <input type="email" placeholder="Email Adress" required />
+          <i class="ri-mail-unread-fill"></i>
+        </div>
+
+        <div class="form-input">
+          <input type="password" placeholder="Password" required />
+          <i class="ri-git-repository-private-fill"></i>
+        </div>
+
+        <div class="form-input">
+          <input type="password" placeholder="Confirm Password" required />
+          <i class="ri-git-repository-private-line"></i>
+        </div>
+
+        <div class="form-buttons">
+          <button type="button" class="btn" id="next-to-login">Next</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container" id="login-container" style="display: none;">
+      <form action="">
+        <h1>Step 2</h1>
+        <div class="form-input">
+          <input type="text" placeholder="User Name" required />
+          <i class="ri-user-6-fill"></i>
+        </div>
+
+        <div class="form-input">
+          <input type="text" placeholder="First Name" required />
+          <i class="ri-user-3-fill"></i>
+        </div>
+
+        <div class="form-input">
+          <input type="text" placeholder="Last Name" required />
+          <i class="ri-user-3-fill"></i>
+        </div>
+
+        <div class="form-buttons">
+          <button type="button" class="btn prev" id="prev-to-register">Previous</button>
+          <button type="button" class="btn" id="next-to-final">Next</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container" id="final-container" style="display: none;">
+      <form action="">
+        <h1>Final Step</h1>
+        <div class="form-input">
+          <input type="number" placeholder="Phone Number" required />
+          <i class="ri-phone-fill"></i>
+        </div>
+
+        <div class="form-input">
+          <input type="date" placeholder="Date Of Birth" required />
+          <i class="ri-calendar-2-fill"></i>
+        </div>
+
+        <div class="form-buttons">
+          <button type="button" class="btn prev" id="prev-to-login-final">Previous</button>
+          <button type="button" class="btn">Done</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

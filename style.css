@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Syne", sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container{
+  color: #fff;
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  padding: 30px 40px;
+  border-radius: 12px;
+  backdrop-filter: blur(9px);
+}
+
+.container h1{
+  font-size: 39px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-align: center;
+  padding-bottom: 26px;
+}
+
+.container .form-input{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+}
+
+.form-input input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 4px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+.form-input input::placeholder{
+  color: #fff;
+}
+
+.form-input i{
+  color: #6ee793;
+  position: absolute;
+  right: 10px;
+  top: 16px;
+  transform: translate(-50%);
+}
+
+.container .btn{
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #6ee793;
+  color: #333;
+  font-weight: 550;
+  transition: all .4s ease-in-out;
+}
+
+.container .btn:hover{
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.container .btn.prev{
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.container .form-buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.container .form-buttons .btn{
+  flex: 1;
+  margin: 0 3px;
+}
