@@ -4,5 +4,3 @@ Learn how to create a stylish multi-step sign-up form from scratch using HTML, C
 
 <a href="https://youtu.be/KqMi8kaDEAg">Watch Tutorial on how to Create the Form</a>
 
-
-<img src="reveal-on-scroll.jpg" alt="Description of the screenshot">
